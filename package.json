@@ -1,0 +1,28 @@
+{
+  "name": "assest",
+  "version": "1.0.0",
+  "description": "维护一些给自己用的静态资源",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MurWhite/assest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MurWhite/assest/issues"
+  },
+  "homepage": "https://github.com/MurWhite/assest#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "pump": "^1.0.2"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
