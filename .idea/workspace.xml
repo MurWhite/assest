@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68d41d2f-1f06-4269-a1a1-30cbdd478371" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/raw/wiki.rewrite.sass" afterPath="$PROJECT_DIR$/raw/wiki.rewrite.sass" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,9 +32,11 @@
       <file leaf-file-name="wiki.rewrite.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/raw/wiki.rewrite.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="80">
+              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding>
+                <marker date="1502768291000" expanded="false" signature="417:1013" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,12 +179,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1502708278112</updated>
-      <workItem from="1502708279281" duration="9883000" />
+      <workItem from="1502708279281" duration="10772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9883000" />
+    <option name="totallyTimeSpent" value="10772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="848" extended-state="6" />
@@ -268,9 +269,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/raw/wiki.rewrite.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="80">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <marker date="1502768291000" expanded="false" signature="417:1013" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

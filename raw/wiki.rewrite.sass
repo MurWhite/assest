@@ -3,6 +3,8 @@ $baseColor: #f63
     display: none
 
 .wiki-content
+    padding-right: 75px
+
     > *
         position: relative
         z-index: 1
@@ -29,7 +31,7 @@ $baseColor: #f63
         padding-right: 20px
         max-width: 250px
         box-sizing: border-box
-        background-color: rgba(255, 255, 255, 0.56)
+        background-color: #fff
         overflow-y: auto
         opacity: 0.3
         &::-webkit-scrollbar
@@ -44,3 +46,6 @@ $baseColor: #f63
             padding-left: 0
             & > li > span
                 font-weight: bold
+
+    .table-wrap
+        z-index: 0
