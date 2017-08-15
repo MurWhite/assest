@@ -3,7 +3,7 @@ let pump = require('pump');
 let del = require('del');
 let sass = require('gulp-sass');
 let distDir = './docs/',
-    sassSrc = './raw/**/*.sass', sassDist = `${distDir}css`;
+    sassSrc = './raw/*.sass', sassDist = `${distDir}css`;
 
 gulp.task('default', ['clean', 'sass'], () => {
   console.log('编译完成')
