@@ -3,6 +3,9 @@ $baseColor: #f63
     display: none
 
 .wiki-content
+    > *
+        z-index: 1
+
     h1
         border-left: 15px solid $baseColor
         padding-left: 10px
@@ -18,9 +21,14 @@ $baseColor: #f63
     .toc-macro
         position: fixed
         right: 20px
+        top: 100px
+        max-height: calc(100vh - 100px)
         background-color: rgba(255, 255, 255, 0.56)
+        overflow-y: auto
+        opacity: 0.3
         &:hover
-            background-color: #fff
+            opacity: 1
+            z-index: 1
         ul
             list-style-type: none
             padding-left: 20px
@@ -28,4 +36,4 @@ $baseColor: #f63
             padding-left: 0
             & > li > span
                 font-weight: bold
-
+        .toc-item-body
