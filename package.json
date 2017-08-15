@@ -4,7 +4,8 @@
   "description": "维护一些给自己用的静态资源",
   "main": "index.js",
   "scripts": {
-    "build": "node_modules/.bin/gulp"
+    "build": "node_modules/.bin/gulp",
+    "sass": "node_modules/.bin/gulp sass"
   },
   "repository": {
     "type": "git",

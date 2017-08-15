@@ -1,9 +1,31 @@
 $baseColor: #f63
+#header-precursor
+    display: none
+
 .wiki-content
+    h1
+        border-left: 15px solid $baseColor
+        padding-left: 10px
     h2
         border-left: 10px solid $baseColor
+        padding-left: 10px
     h3
         border-left: 8px solid $baseColor
+        padding-left: 10px
     p
         margin: 0
-        margin-left: 5px
+
+    .toc-macro
+        position: fixed
+        right: 20px
+        background-color: rgba(255, 255, 255, 0.56)
+        &:hover
+            background-color: #fff
+        ul
+            list-style-type: none
+            padding-left: 20px
+        & > ul
+            padding-left: 0
+            & > li > span
+                font-weight: bold
+
