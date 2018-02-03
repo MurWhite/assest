@@ -18,7 +18,7 @@ gulp.task('sass', _ => {
 });
 gulp.task('sass:clean', _ => del(sassDist));
 gulp.task('sass:watch', _ => {
-  gulp.watch(sassSrc, ['sass']);
+  gulp.watch('./raw/**/*.sass', ['sass']);
 });
 
 
